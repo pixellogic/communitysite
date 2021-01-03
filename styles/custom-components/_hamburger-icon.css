@@ -1,0 +1,19 @@
+.menuBar {
+  width: 28px;
+  height: 3px;
+  background-color: theme('colors.titleFontColor');
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.menuOnBar1 {
+  -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.menuOnBar2 {
+  opacity: 0;
+}
+.menuOnBar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}

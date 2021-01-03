@@ -1,0 +1,9 @@
+.button {
+  @apply bg-primaryColor px-6 py-3 rounded-full font-bodyFont font-bold text-white transition duration-500 ease-out;
+}
+.button:hover {
+  @apply bg-primaryHovered;
+}
+.button:focus {
+  @apply bg-primaryHovered;
+}

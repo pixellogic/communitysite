@@ -1,0 +1,25 @@
+.nav-link {
+  @apply font-bodyFont font-bold text-xl text-bodyFontColor uppercase cursor-pointer no-underline;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  @apply text-primaryColor;
+}
+
+.nav-link:focus {
+  @apply outline-none;
+}
+
+@screen md {
+  .nav-link {
+    margin-bottom: 0px;
+    font-size: 0.875rem;
+    margin-left: 1.5rem;
+  }
+}
+
+.active-nav-link {
+  @apply text-primaryColor;
+}

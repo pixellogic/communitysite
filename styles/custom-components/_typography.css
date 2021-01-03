@@ -1,0 +1,33 @@
+.heading {
+  @apply font-titleFont text-3xl text-titleFontColor text-center mt-0 pt-0;
+  margin-bottom: 3.35rem;
+}
+.heading:after {
+  content: '';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  height: 6.5px;
+  margin-top: 10px;
+  background-color: theme('colors.secondaryColor');
+  border-radius: 10px;
+}
+@screen md {
+  .heading {
+    @apply text-4.5xl;
+  }
+}
+
+.body-text {
+  @apply font-bodyFont text-bodyFontColor text-lg;
+}
+
+.title-text {
+  @apply font-titleFont text-titleFontColor text-2xl  my-5;
+}
+@screen lg {
+  .btn {
+    @apply text-3xl;
+  }
+}

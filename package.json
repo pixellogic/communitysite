@@ -1,0 +1,31 @@
+{
+  "name": "community-site",
+  "version": "1.0.0",
+  "description": "website for Education and Sports Club",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.8.4",
+    "axios": "^0.19.2",
+    "cosmicjs": "^3.2.48",
+    "express": "^4.17.1",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "next": "^9.4.4",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-toastify": "^6.0.8",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Ayush Bajracharya",
+  "license": "ISC"
+}
